@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Hero from '../components/hero'
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi Peeps</h1>
-    <p>Welcome to my page</p>
-    <p>Still in progress.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
 
-export default IndexPage
+export default () => (
+  <Hero>
+    <h1>About CSS Modules</h1>
+    <p>CSS Modules are cool</p>
+  </Hero>
+);
+
+//export default IndexPage
