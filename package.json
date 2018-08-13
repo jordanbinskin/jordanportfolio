@@ -11,8 +11,7 @@
     "gatsby-plugin-typography": "^1.7.19",
     "node-sass": "^4.9.2",
     "react-helmet": "^5.2.0",
-    "typography": "^0.16.17",
-    "typography-theme-stardust": "^0.16.14"
+    "semantic-ui-react": "^0.82.2"
   },
   "keywords": [
     "gatsby"

@@ -4,8 +4,16 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+$void: #0E0B16;
+$fuschia: #A239CA;
+$jewel: #4717F6;
+$stark: #E7DFDD;
+
 body {
   margin: 0;
+  background-color: $void;
+  color: $stark !important;
+  height: 100vh;
 }
 
 article,

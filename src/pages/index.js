@@ -5,9 +5,10 @@ import Hero from '../components/hero'
 
 export default () => (
   <Hero>
-    <h1>About CSS Modules</h1>
-    <p>CSS Modules are cool</p>
+    <p style={{
+      marginBottom: '0.5em',
+      fontStyle: 'italic',
+    }}>Jordan Binskin's web page - in progress</p>
   </Hero>
 );
 
-//export default IndexPage
