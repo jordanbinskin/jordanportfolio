@@ -8,7 +8,6 @@ const Header = ({ siteTitle }) => (
       display: 'flex',
       alignItems: 'center',
       opacity: 0.9,
-      position: 'fixed',
       width: '100%',
       height: 80,
       zIndex: 1,

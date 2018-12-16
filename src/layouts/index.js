@@ -19,12 +19,13 @@ const Layout = ({ children, data }) => (
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
+        padding: '1.45rem 1.0875rem',
+        display: 'flex',
+        justifyContent: 'center'
       }}
     >
       {children()}
     </div>
-    <Footer>
-    </Footer>
   </div>
 )
 
